@@ -6,13 +6,65 @@
 }
 
 :root {
-    --color-azulzinho: #c0d6df;
+    --color-laranja: #5e503f;
+    --color-marrom: #c6ac8f;
 }
 
 header {
-    background-color: var(--color-azulzinho);
-    height: 5rem;
+    background-color: var(--color-laranja);
+    height: 7rem;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.primeira img {
+    width: 32rem;
+}
+
+.primeira p {
+    max-width: 20rem;
+}
+
+.primeira {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 5rem;
+    
+}
+
+.segunda img {
+    width: 28rem;
+    height: 20rem;
+    padding-inline: 2rem;
+    
+}
+
+.segunda p {
+    max-width: 17rem;
+    
+}
+
+.segunda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-marrom);
+    height: 25rem;
+}
+
+.terceira img {
+    width: 30rem;
+    padding-bottom: 2rem;
+}
+
+.terceira {
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
 }
