@@ -27,12 +27,12 @@ header {
 }
 
 .primeira {
-    padding: 5rem;
-
+    padding: 4rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding-bottom: 5rem;
+    padding-bottom: 4rem;
+    
     
 }
 
@@ -50,10 +50,11 @@ header {
 
 .segunda {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: var(--color-marrom);
     height: 25rem;
+   
 }
 
 .terceira img {
